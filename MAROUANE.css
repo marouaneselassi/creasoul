@@ -1,0 +1,104 @@
+body {
+    /* width: 100%; */
+    background-color: rgb(242, 241, 244);
+}
+
+.body {
+    width: 80%;
+    margin: 0 auto;
+}
+picture img{
+    width: 100%;
+}
+.real1 {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+}
+
+.real {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.barca {
+    text-align: center;
+    background-color: rgb(48, 168, 148);
+
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+.barca a {
+    /* padding-left: 150px; */
+    text-decoration: none;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+
+.wydad {
+    width: 30%;
+    float: right;
+    display: inline-block;
+    background-color: rgb(184, 220, 177);
+    padding: 1em;
+    margin: auto;
+    /* padding-bottom: 22%; */
+}
+
+footer {
+
+    text-align: center;
+    clear: both;
+    color: black;
+padding-top: 5em;
+
+}
+
+footer a {
+    color: rgb(168, 213, 216);
+}
+
+
+
+
+@media only screen and (max-width:786px){
+    body{
+        /* background-color: silver; */
+        
+    }
+ 
+    .barca{
+flex-direction: column;
+    }
+
+    .wydad {
+        width: 100%;
+        display: block;
+        
+        /* padding: 1em; */
+        /* margin: auto;
+        padding-bottom: 22%; */
+    }
+    .logo {
+        width: 100%;
+       
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width:480px){
+    .wydad{
+        display: none;
+    }
+}
